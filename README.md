@@ -1,2 +1,4 @@
 # CIS17B-S25-33477-Assignment3
-A bank error management system.
+This banking system works by using three classes as the assignment asks for. It includes the exception for standard library, allowing class errors to be children of the exception class. The classes derive from the base class, and the main function calls on these classes to throw an error. There also is an exception for invalid user inputs with the standard exception library. 
+
+So far, there should be no errors in this program, and I used the sample code as a starter for the requirements. Some redundancies may be the use of std::, as using namespace std isn't a good practice nor was it present on the starter code. I utilized else if statements for inputs, making this an easier alternative to switch statements and for exceptions. If there's any advice for streamlining code into simpler and efficient implementation, all ideas are welcome.
